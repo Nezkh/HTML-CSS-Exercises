@@ -1,4 +1,6 @@
 .japan > img {
+    display: flex;
+    margin-top: 10px;
     width: 300px;
     flex-wrap: wrap;
 }
