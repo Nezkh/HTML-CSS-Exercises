@@ -10,6 +10,10 @@
     background-color: green;
 }
 
-.boton:active{
+.boton::before{
+    content: "Pasa por encima";
+}
+
+.boton:hover::before{
     content: "Hecho!";
 }
