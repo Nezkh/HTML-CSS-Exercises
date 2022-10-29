@@ -1,0 +1,15 @@
+.boton{
+    width: 200px;
+    height: 30px;
+    background-color: bisque;
+    border-color: rgb(199, 171, 136);
+}
+
+.boton:hover{
+    color: white;
+    background-color: green;
+}
+
+.boton:active{
+    content: "Hecho!";
+}
