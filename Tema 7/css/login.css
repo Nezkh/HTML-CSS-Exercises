@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #161717;
+    color: white;
+}
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.btn{
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+.google-btn{
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 4px;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.google-btn:hover{
+    background-color: #64A0EF;
+    transition: 300ms;
+}
+
+.google-btn picture img{
+    width: 35px;
+}
+
+.google-btn picture {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn span{
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+.twitter-btn{
+    border: none;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    background-color:#F2F2F2;
+    cursor: pointer;
+}
+.twitter-btn picture img{
+    width: 70%;
+    background-color: none;
+}
+
+.twitter-btn:hover{
+    background-color: #dfdfdf;
+    transition: 300ms;
+}
+
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+.separator span {
+    color: #6e6d7a;
+}
+
+.section-input {
+    display: flexbox;
+    gap: 10px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span{
+    font-weight: 500;
+}
+
+label input {
+    width: 100%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 12pt;
+}
+
+label input:hover{
+    box-shadow: 0 0 0 4px #FDEDF3;
+    background-color: #454045;
+    border: solid 1px #E5E5E5;
+    transition: 200ms;
+}
+
+label input:focus{
+    box-shadow: 0 0 0 4px #FDEDF3;
+    background-color: #454045;
+    border: solid 1px #E5E5E5;
+    transition: 200ms;
+}
+
+.checkbox-label {
+    display: flex;
+}
+
+.checkbox-label input{
+    width: 16px;
+    border: 1px solid #d0d0d0;
+}
+
+.checkbox-label span {
+    font-weight: 300;
+}
+
+.btn-submit {
+    background-color: #EA4C89;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    background-color: #f082ac;;
+}
