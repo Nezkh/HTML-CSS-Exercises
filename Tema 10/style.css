@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-izq{
+    padding: 1rem;
+    background-color: rgb(105, 181, 248);
+    width: 8rem;
+    height: 100vh;
+}
+
+.contenedor-principal{
+    display: flex;
+
+}
