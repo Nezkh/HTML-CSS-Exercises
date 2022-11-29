@@ -3,14 +3,34 @@
     margin: 0;
 }
 
-.contenedor-izq{
-    padding: 1rem;
+.sidebar{
     background-color: rgb(105, 181, 248);
-    width: 8rem;
-    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+    transition: all 200ms;
 }
 
-.contenedor-principal{
-    display: flex;
+.content{
+    padding: 1rem;
+    transition: all 200ms;
+}
 
+@media screen and (max-width: 640px) {
+    .sidebar{
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 10vh;
+        gap: 10vh;
+        height: 100%;
+        position: fixed;
+        width: 20vh;
+        transition: all 200ms;
+    }
+    .content{
+        margin-left: 20vh;
+        transition: all 200ms;
+    }
 }
